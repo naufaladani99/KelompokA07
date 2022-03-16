@@ -117,8 +117,17 @@ footer {
 
 .flex-footer {
     display: flex;
-  }
   
+    
+}
+  
+.flex-footer img{
+   height: 200px;
+   
+}
+
+
+
   .flex-footer > div {
     width: 100px;
     margin: 10px;
@@ -127,10 +136,10 @@ footer {
 
 @keyframes example {
     from {background-color: grey;}
-    to {background-color: yellow;}
+    to {background-color: peru;}
   }
 
-
+@media (max-width: 1000px)
 
 
 
